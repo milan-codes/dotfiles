@@ -11,10 +11,9 @@ alias .4='cd ../../../..'
 alias .5='cd ../../../../..'
 
 # Changing "ls" to "exa" 
-alias ls='exa -al --color=always --group-directories-first'	# default listing
-alias la='exa -a --color=always --group-directories-first'	# all files and dirs
-alias ll='exa -l --color=always --group-directories-first'	# long format
-alias lt='exa -aT --color=always --group-directories-first'	# tree listing
+alias ls='ls -lah'	# default listing
+alias la='ls -a'	# all files and dirs
+alias ll='ls -l'	# long format
 
 # Confirming changes before overwriting something
 alias cp='cp -i'
